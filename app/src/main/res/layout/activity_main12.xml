@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".Main12Activity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="100dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp">
+
+            <ImageView
+                android:id="@+id/imageView33"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                app:srcCompat="@drawable/vaccin" />
+
+            <ImageView
+                android:id="@+id/imageView34"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                app:srcCompat="@drawable/date" />
+
+            <ImageView
+                android:id="@+id/imageView35"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                app:srcCompat="@drawable/next" />
+
+            <ImageView
+                android:id="@+id/imageView36"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                app:srcCompat="@drawable/vete" />
+
+            <ImageView
+                android:id="@+id/imageView37"
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="5dp"
+                app:srcCompat="@drawable/lot" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="100dp">
+
+        <ImageView
+            android:id="@+id/imageView44"
+            android:layout_width="70dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="65dp"
+            app:srcCompat="@drawable/rh" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="70dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="65dp"
+            android:background="#b9e9fa"
+            android:freezesText="false"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="70dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="65dp"
+            android:background="#b9e9fa"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="70dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="65dp"
+            android:background="#b9e9fa"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="70dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="65dp"
+            android:background="#b9e9fa"
+            android:text="TextView" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="100dp">
+
+        <ImageView
+            android:id="@+id/imageView48"
+            android:layout_width="70dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="125dp"
+            app:srcCompat="@drawable/fe" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="70dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="125dp"
+            android:background="#ffe2a9"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="70dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="125dp"
+            android:background="#ffe2a9"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="70dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="125dp"
+            android:background="#ffe2a9"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="70dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="125dp"
+            android:background="#ffe2a9"
+            android:text="TextView" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="100dp">
+
+        <ImageView
+            android:id="@+id/imageView50"
+            android:layout_width="70dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="185dp"
+            app:srcCompat="@drawable/ca" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="70dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="185dp"
+            android:background="#e6b7fd"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="70dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="185dp"
+            android:background="#e6b7fd"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="70dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="185dp"
+            android:background="#e6b7fd"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="70dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="185dp"
+            android:background="#e6b7fd"
+            android:text="TextView" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="100dp">
+
+        <ImageView
+            android:id="@+id/imageView51"
+            android:layout_width="70dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="245dp"
+            app:srcCompat="@drawable/fe" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="70dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="245dp"
+            android:background="#f6fdb2"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="70dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="245dp"
+            android:background="#f6fdb2"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="70dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="245dp"
+            android:background="#f6fdb2"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textView30"
+            android:layout_width="70dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="245dp"
+            android:background="#f6fdb2"
+            android:text="TextView" />
+
+    </TableRow>
+
+</RelativeLayout>

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:textAlignment="center"
+    tools:context=".Main12Activity">
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/vaccin" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="200dp"
+        android:textAlignment="center">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:textAlignment="center">
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:text="TextView"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:text="TextView"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:text="TextView"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:text="TextView"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/btpic"
+                android:onClick="onClick1" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:textAlignment="center">
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/textView35"
+                android:text="TextView"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_alignStart="@+id/textView36"
+                android:layout_alignTop="@+id/textView41"
+                android:text="TextView"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignStart="@+id/textView37"
+                android:layout_alignTop="@+id/textView41"
+                android:text="TextView"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignStart="@+id/textView39"
+                android:layout_alignTop="@+id/textView41"
+                android:text="TextView"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/btpic"
+                android:onClick="onClick2" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:textAlignment="center">
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignStart="@+id/textView35"
+                android:text="TextView"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignStart="@+id/textView36"
+                android:layout_alignTop="@+id/textView45"
+                android:text="TextView"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignStart="@+id/textView37"
+                android:layout_alignTop="@+id/textView45"
+                android:text="TextView"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/textView48"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignStart="@+id/textView39"
+                android:layout_alignTop="@+id/textView45"
+                android:text="TextView"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/btpic"
+                android:onClick="onClick3" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:textAlignment="center">
+
+            <TextView
+                android:id="@+id/textView49"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignStart="@+id/textView35"
+                android:text="TextView"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/textView50"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignStart="@+id/textView36"
+                android:layout_alignTop="@+id/textView49"
+                android:text="TextView"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignStart="@+id/textView37"
+                android:layout_alignTop="@+id/textView49"
+                android:text="TextView"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/textView53"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignStart="@+id/textView39"
+                android:layout_alignTop="@+id/textView49"
+                android:text="TextView"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@drawable/btpic"
+                android:onClick="onClick4" />
+
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>
